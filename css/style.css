@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* =====================TABS SECTION===================*/
+.tabs, .form {
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border: 1px solid #008282;
+}
+
+.tabs__list {
+    background-color: #cce6e6;
+    height: 43px;
+}
+
+.tabs__list li {
+    float: left;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left:  10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background-color: #99cdcd;
+    border: 1px solid #008282;
+    border-bottom: none;
+    border-top: none;
+    color:  #008282;
+    font-size: 24px;
+    list-style: none;
+    font-family: "Open Sans",Tahoma, sans-serif;
+}
+
+.tabs__list .tabs__first {
+    margin-left:  15px;
+}
+
+.tabs__list li:hover {
+    border: 1px solid white;
+    border-bottom: none;
+    border-top: none;
+    cursor: pointer;
+}
+
+.tabs__content {
+  clear: both;
+}
+
+.tabs__content  p{
+    padding: 20px 20px 1px 20px ;
+    font-family: "Open Sans",Tahoma, sans-serif;
+}
+
+#active {
+    background-color: white;
+    display: block;
+  }
+
+.first, .second, .third{
+    display: none;
+}
+
+/* =====================INPUT SECTION===================*/
+.input {
+    margin: 20px;
+    font-family: "Open Sans",Tahoma, sans-serif;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: 1px solid #008282;
+    font-family: "Open Sans",Tahoma, sans-serif;
+    text-align: center;
+    background-color: #99cdcd;
+}
+
+.hint {
+    opacity: 0;
+    padding: 0 10px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: grey;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0,130,130,1);
+}
